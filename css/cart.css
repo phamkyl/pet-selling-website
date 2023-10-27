@@ -1,0 +1,64 @@
+
+.iSearchBox li .iMarq {
+background-color:#F7FF8C;
+                      }
+.iSearchBoxWrapper .iSearchBox {
+    width: 100% !important;
+}
+
+.iSearchBox li .iSearchModel {
+    display:none;
+}
+.iSearchBox li h3 {
+    width:42%;
+}
+.iSearchBox li h3 {
+    font-weight:bold;
+}
+
+.my-content
+{
+    display: flex;
+}
+
+input
+{
+    width: 50px;
+}
+button
+{
+    background-color:#4682B4;
+    color: white;
+}
+.sum_cart
+{
+    /*margin-right: 200px;*/
+    width: 20%;
+    height: 330px;
+
+    border: black solid 1px;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 5px;
+    }
+    .tieude {
+        font-size: 2vw;
+    }
+    .my-content,
+    .cart_content
+    {
+        width: 100%;
+    }
+    .col-md-9
+    {
+        width: 80%;
+    }
+    .sum_cart
+    {
+        width: 20%;
+        height: 50%;
+    }
+}
+
